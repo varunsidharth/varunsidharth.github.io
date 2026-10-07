@@ -1,12 +1,246 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Varun Sidharth</title>
-</head>
-<body>
-    <h1>Varun Sidharth</h1>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f5f4f0" />
+    <meta
+      name="description"
+      content="Varun Sidharth is a software engineer at Cisco working across enterprise networking, SD-WAN, network telemetry, and automation."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Varun Sidharth — Software Engineer, Cisco" />
+    <meta property="og:description" content="Engineering across enterprise networking, SD-WAN, network telemetry, and automation." />
+    <title>Varun Sidharth — Software Engineer, Cisco</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Varun Sidharth, home">
+        <span class="wordmark-mark" aria-hidden="true">VS</span>
+        <span>Varun Sidharth</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Toggle navigation</span>
+        <span></span><span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#experience">Experience</a>
+        <a href="#certifications">Certifications</a>
+        <a class="nav-cta" href="https://www.linkedin.com/in/varunsidharth/" target="_blank" rel="noreferrer">
+          Connect <span aria-hidden="true">↗</span>
+        </a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero page-wrap" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> Software Engineer <span class="eyebrow-divider">/</span> Cisco <span class="eyebrow-divider">/</span> Bengaluru, India</p>
+          <h1 id="hero-title">Better networks<br />start with <em>clarity.</em></h1>
+          <p class="hero-intro">I work at the intersection of network engineering, software, and automation—turning complex systems into solutions that are easier to understand, operate, and improve.</p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#experience">Explore my work <span aria-hidden="true">↓</span></a>
+            <a class="text-link" href="https://www.linkedin.com/in/varunsidharth/" target="_blank" rel="noreferrer">LinkedIn profile <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="hero-facts" aria-label="Profile highlights">
+            <div><strong>10<span>+</span></strong><span>years at Cisco</span></div>
+            <div><strong>SD-WAN</strong><span>networks &amp; telemetry</span></div>
+            <div><strong>Research <span>→</span> reality</strong><span>engineering with impact</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual" role="img" aria-label="Illustration of a connected network, from edge devices through telemetry to insight">
+          <div class="visual-topline"><span>NETWORK SYSTEMS</span><span>01 — 03</span></div>
+          <div class="network-art" aria-hidden="true">
+            <svg class="network-lines" viewBox="0 0 520 420" fill="none" role="presentation">
+              <path d="M82 96 204 158 321 72 434 136M82 96l31 152 91-90 82 131 35-217 113 64-69 149-79 4-82 103-91-144-98 59M204 158l-91 90 174 3 69-109M321 72l-38 179 151-115M113 248l61 55 109-52 104 53 60-168" />
+              <path class="line-accent" d="m82 96 122 62 117-86 113 64-69 149-79 4-82 103" />
+              <circle class="pulse pulse-one" cx="82" cy="96" r="5" />
+              <circle class="pulse pulse-two" cx="321" cy="72" r="5" />
+              <circle class="pulse pulse-three" cx="434" cy="136" r="5" />
+            </svg>
+            <div class="network-node node-edge"><span class="node-icon">⌁</span><span>EDGE</span><i></i></div>
+            <div class="network-node node-insight"><span class="node-icon">◌</span><span>INSIGHT</span><i></i></div>
+            <div class="network-node node-core"><span class="node-icon">⌘</span><span>CORE</span><i></i></div>
+            <div class="telemetry-card">
+              <span class="card-label">LIVE TELEMETRY</span>
+              <span class="telemetry-value">Signal, made useful.</span>
+              <svg viewBox="0 0 186 38" fill="none" role="presentation" aria-hidden="true">
+                <path d="M1 28h20l9-15 12 20 13-26 12 19h18l11-12 11 7h17l10-15 12 21 10-9h20" />
+              </svg>
+              <div class="telemetry-foot"><span>OBSERVE</span><span>UNDERSTAND</span><span>ACT</span></div>
+            </div>
+          </div>
+          <div class="visual-caption"><span>From network signals to practical outcomes.</span><span class="caption-index">BENGALURU · IN</span></div>
+        </div>
+      </section>
+
+      <section class="about-band" id="about" aria-labelledby="about-title">
+        <div class="page-wrap about-grid">
+          <p class="section-kicker">01 / A little about me</p>
+          <div>
+            <h2 id="about-title">Engineering that connects<br class="desktop-break" /> the <span>big picture</span> to the details.</h2>
+            <p class="about-copy">My work spans network research, product engineering, and hands-on operations. I’m drawn to the challenge of making large-scale networks more observable and resilient—and to the thoughtful engineering it takes to make an idea work in the real world.</p>
+          </div>
+          <div class="about-note">
+            <span class="note-rule"></span>
+            <p>Curiosity, earned early.<br /><span>From a CCNA course at Amrita to a career building with Cisco.</span></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="expertise page-wrap section-space" id="expertise" aria-labelledby="expertise-title">
+        <div class="section-heading">
+          <div><p class="section-kicker">02 / What I work on</p><h2 id="expertise-title">Focus areas</h2></div>
+          <p class="section-aside">A blend of deep networking knowledge and modern software engineering.</p>
+        </div>
+        <div class="focus-grid">
+          <article class="focus-card">
+            <span class="card-number">01</span>
+            <div class="focus-icon icon-network" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="5"/><circle cx="9" cy="10" r="3"/><circle cx="39" cy="10" r="3"/><circle cx="9" cy="38" r="3"/><circle cx="39" cy="38" r="3"/><path d="m12 12 9 9m15-9-9 9M12 36l9-9m15 9-9-9"/></svg></div>
+            <h3>Network intelligence</h3>
+            <p>Making network telemetry useful—from Catalyst SD-WAN data processing to predictive-network research and operational insight.</p>
+            <div class="tag-row"><span>SD-WAN</span><span>Telemetry</span><span>PySpark</span></div>
+          </article>
+          <article class="focus-card">
+            <span class="card-number">02</span>
+            <div class="focus-icon icon-code" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none"><path d="m17 14-10 10 10 10m14-20 10 10-10 10M28 8l-8 32"/></svg></div>
+            <h3>Software &amp; automation</h3>
+            <p>Building practical engineering tools, API services, test workflows, and repeatable automation for network systems.</p>
+            <div class="tag-row"><span>Go</span><span>Python</span><span>Ansible</span><span>CI/CD</span></div>
+          </article>
+          <article class="focus-card">
+            <span class="card-number">03</span>
+            <div class="focus-icon icon-operations" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none"><path d="M24 7v10m0 14v10M7 24h10m14 0h10M12 12l7 7m10 10 7 7m0-24-7 7m-10 10-7 7"/><circle cx="24" cy="24" r="7"/><circle cx="24" cy="24" r="17"/></svg></div>
+            <h3>Resilient operations</h3>
+            <p>Bringing a support engineer’s perspective to product quality, complex troubleshooting, and dependable network environments.</p>
+            <div class="tag-row"><span>Linux</span><span>NFVIS</span><span>TCP/IP</span><span>Wireshark</span></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="experience-band" id="experience" aria-labelledby="experience-title">
+        <div class="page-wrap experience-layout">
+          <div class="experience-intro">
+            <p class="section-kicker">03 / The journey</p>
+            <h2 id="experience-title">A decade of<br /><span>building forward.</span></h2>
+            <p>Growing from network support into software engineering—each role adding a new perspective on how connected systems are built and run.</p>
+            <div class="education-card"><span class="amrita-logo-frame"><img class="amrita-logo" src="assets/amrita-varun.png" alt="Amrita Vishwa Vidyapeetham logo" /></span><div><span class="mini-label">EDUCATION</span><strong>Amrita School of Engineering</strong></div></div>
+          </div>
+          <div class="timeline" aria-label="Career history">
+            <article class="timeline-item current">
+              <span class="timeline-dot"></span>
+              <div class="timeline-meta"><span>May 2024 — Present</span><span class="current-label"><i></i> CURRENT</span></div>
+              <h3>Software Engineer</h3>
+              <div class="timeline-employer"><img class="brand-logo brand-logo-cisco" src="assets/cisco.svg" alt="Cisco" /><span class="department-label">Enterprise Networking</span></div>
+              <p class="timeline-description">Building software in enterprise networking, with a focus on reliable systems and the technologies that connect them.</p>
+            </article>
+            <article class="timeline-item">
+              <span class="timeline-dot"></span>
+              <div class="timeline-meta"><span>Apr 2023 — May 2024</span><span>1 yr 2 mos</span></div>
+              <h3>Software Engineer</h3>
+              <div class="timeline-employer timeline-employer-thousand"><img class="brand-logo brand-logo-thousand" src="assets/thousandeyes.png" alt="ThousandEyes" /><span class="employer-relationship">(Now part of Cisco)</span><span class="timeline-team">WAN Insights</span></div>
+              <p class="timeline-description">Worked on Catalyst SD-WAN telemetry pipelines, Go APIs, and automated traffic-generation workflows.</p>
+            </article>
+            <article class="timeline-item">
+              <span class="timeline-dot"></span>
+              <div class="timeline-meta"><span>Jan 2023 — Mar 2023</span><span>3 mos</span></div>
+              <h3>Software Engineer</h3>
+              <div class="timeline-employer"><img class="brand-logo brand-logo-cisco" src="assets/cisco.svg" alt="Cisco" /><span class="department-label">Innovation Networking</span></div>
+              <p class="timeline-description">Supported predictive-network research through a global lab cluster and automated telemetry collection.</p>
+            </article>
+            <article class="timeline-item">
+              <span class="timeline-dot"></span>
+              <div class="timeline-meta"><span>Mar 2022 — Jan 2023</span><span>11 mos</span></div>
+              <h3>Software Engineer</h3>
+              <div class="timeline-employer"><img class="brand-logo brand-logo-cisco" src="assets/cisco.svg" alt="Cisco" /><span class="department-label">Enterprise Networking</span></div>
+              <p class="timeline-description">Partnered across engineering and customer teams to investigate issues and improve Catalyst SD-WAN and NFVIS.</p>
+            </article>
+            <article class="timeline-item">
+              <span class="timeline-dot"></span>
+              <div class="timeline-meta"><span>Aug 2016 — Feb 2022</span><span>5 yrs 7 mos</span></div>
+              <h3>Technical Consulting Engineer</h3>
+              <div class="timeline-employer"><img class="brand-logo brand-logo-cisco" src="assets/cisco.svg" alt="Cisco" /></div>
+              <p class="timeline-description">Diagnosed complex network problems, designed high-performance environments, and supported customers across enterprise platforms.</p>
+            </article>
+            <article class="timeline-item timeline-first">
+              <span class="timeline-dot"></span>
+              <div class="timeline-meta"><span>Oct 2015 — Mar 2016</span><span>6 mos</span></div>
+              <h3>On-Campus Intern</h3>
+              <div class="timeline-employer"><img class="brand-logo brand-logo-cisco" src="assets/cisco.svg" alt="Cisco" /><span class="department-label">IT Engineering</span></div>
+              <p class="timeline-description">Developed a resource management tool and took the first step into a career in networking.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="certifications page-wrap" id="certifications" aria-labelledby="certifications-title">
+        <div class="section-heading">
+          <div><p class="section-kicker">04 / Professional development</p><h2 id="certifications-title">Certifications</h2></div>
+          <p class="section-aside">Credentials across networking, cloud, and Linux.</p>
+        </div>
+        <div class="credential-grid">
+          <article class="credential-card">
+            <div class="credential-top"><span>MICROSOFT</span></div>
+            <h3>Azure Network Engineer Associate</h3>
+          </article>
+          <article class="credential-card">
+            <div class="credential-top"><span>CISCO</span></div>
+            <h3>Internetwork Expert<br />Data Center</h3>
+          </article>
+          <article class="credential-card">
+            <div class="credential-top"><span>CISCO</span></div>
+            <h3>Specialist — Web Content Security</h3>
+          </article>
+          <article class="credential-card">
+            <div class="credential-top"><span>CISCO</span></div>
+            <h3>CCNP Security</h3>
+          </article>
+          <article class="credential-card">
+            <div class="credential-top"><span>GOOGLE</span></div>
+            <h3>Associate Cloud Engineer</h3>
+          </article>
+          <article class="credential-card">
+            <div class="credential-top"><span>MICROSOFT</span></div>
+            <h3>Azure Administrator Associate</h3>
+          </article>
+          <article class="credential-card">
+            <div class="credential-top"><span>CISCO</span></div>
+            <h3>Enterprise SD-WAN Implementation</h3>
+          </article>
+          <article class="credential-card">
+            <div class="credential-top"><span>RED HAT</span></div>
+            <h3>Red Hat Certified Engineer</h3>
+          </article>
+          <article class="credential-card">
+            <div class="credential-top"><span>RED HAT</span></div>
+            <h3>Red Hat Certified System Administrator</h3>
+          </article>
+        </div>
+      </section>
+
+      <section class="closing page-wrap" id="connect" aria-labelledby="closing-title">
+        <div class="closing-mark" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+        <div><p class="section-kicker">05 / Stay in touch</p><h2 id="closing-title">Good engineering is<br />a <em>team effort.</em></h2><p class="closing-copy">I’m always glad to connect with people working on networks, software, and the ideas that bring them together.</p></div>
+        <a class="button button-light" href="https://www.linkedin.com/in/varunsidharth/" target="_blank" rel="noreferrer">Let’s connect on LinkedIn <span aria-hidden="true">↗</span></a>
+      </section>
+    </main>
+
+    <footer class="site-footer page-wrap">
+      <a class="wordmark footer-wordmark" href="#top"><span class="wordmark-mark" aria-hidden="true">VS</span><span>Varun Sidharth</span></a>
+      <span>Software Engineer · Cisco · Bengaluru</span>
+      <span>© <span id="year">2026</span> Varun Sidharth</span>
+    </footer>
+  </body>
 </html>
