@@ -122,9 +122,10 @@ h1 em, .closing h2 em { color: var(--green); font-style: normal; }
 .education-card { display: flex; align-items: center; gap: 13px; max-width: 360px; padding-top: 17px; border-top: 1px solid #cdd5cd; }
 .amrita-logo-frame { width: 145px; min-width: 145px; display: grid; place-items: center; flex: 0 0 auto; background: transparent; }
 .amrita-logo { display: block; width: 145px; height: auto; }
-.education-card div { display: grid; gap: 4px; }
+.education-details { display: grid; gap: 5px; }
 .mini-label { color: #8b978f; font-size: 7px; }
 .education-card strong { font-size: 11px; font-weight: 600; }
+.education-degree { color: #68776f; font-size: 9px; line-height: 1.5; }
 .timeline { position: relative; padding-left: 27px; }
 .timeline::before { position: absolute; content: ""; top: 6px; bottom: 9px; left: 4px; width: 1px; background: #c7d0c7; }
 .timeline-item { position: relative; padding: 0 0 30px; }
